@@ -80,7 +80,7 @@ class FlowPageHolder_Controller extends Page_Controller
     public function init()
     {
         parent::init();
-        $moduleFolder = '/joy-flow-page/';
+        $moduleFolder = 'joy-flow-page/';
         Requirements::css($moduleFolder . 'assets/css/flow-page.css');
     }
 
